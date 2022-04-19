@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+::root {
+  --h1: 4rem;
+  --caption: 1.5rem;
+  --purple: #3d40cc;
+  --dark: #2f2f2f;
+  --light-cream: #f7f5ed;
+  --darker-cream: #e0dfd7;
+}
