@@ -1,9 +1,9 @@
-import Button from "./components/Button";
+import Header from "./sections/Header/Header";
 
 function App() {
   return (
     <div className="App">
-      <Button text="Buy now" icon="i" />
+      <Header />
     </div>
   );
 }

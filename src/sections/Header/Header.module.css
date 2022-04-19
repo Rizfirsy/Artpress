@@ -1,0 +1,44 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 864px;
+}
+
+.text,
+.carousel {
+  text-align: center;
+  background-color: #f7f5ed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.text {
+  background-color: #f7f5ed;
+}
+
+.carousel {
+  overflow: hidden;
+  background-color: #e0dfd7;
+}
+
+.text h1 {
+  font-size: 4rem;
+  width: 645px;
+  line-height: 128.5%;
+}
+
+.text h4 {
+  color: #3d40cc;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.top-row,
+.bottom-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
