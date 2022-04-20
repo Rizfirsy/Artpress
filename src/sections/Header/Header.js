@@ -26,7 +26,7 @@ const Header = () => {
       <div className={styles.text}>
         <h4>Only shop original art in artpress</h4>
         <h1>Unique products featuring original artwork</h1>
-        <Button text="Shop now" icon={rightArrow} />
+        <Button text="Explore products" icon={rightArrow} />
       </div>
       <div className={styles.carousel}>
         <div className={styles["top-row"]}>
