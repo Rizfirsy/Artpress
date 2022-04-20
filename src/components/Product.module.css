@@ -1,0 +1,29 @@
+.product {
+  width: 488px;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.product img {
+  width: 488px;
+  height: 496px;
+}
+
+.product h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-block: 0;
+  margin: 1rem 0 0.4rem 0;
+}
+
+.product p {
+  margin: 0;
+  margin-block: 0;
+
+  color: #53535f;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
