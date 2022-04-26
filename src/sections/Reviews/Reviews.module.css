@@ -1,0 +1,24 @@
+.reviews {
+  display: grid;
+  grid-template-columns: auto 950px auto;
+  place-content: center;
+  align-items: center;
+
+  padding: 75px 0;
+}
+
+.main-review {
+  margin-inline: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-review .text {
+  margin: 2em 0;
+  max-width: 950px;
+  font-weight: 300;
+  font-size: 2rem;
+  text-align: center;
+}

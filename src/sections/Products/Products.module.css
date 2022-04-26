@@ -3,15 +3,16 @@
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  padding: 90px 0;
 }
 
-.products h1 {
-  margin: 90px 0;
+.section-title {
   font-weight: 700;
   font-size: 4rem;
+  margin-bottom: 75px;
 }
 
-.products main {
+main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 32px;

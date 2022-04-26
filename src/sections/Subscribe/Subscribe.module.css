@@ -1,0 +1,39 @@
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #3d40cc;
+  padding: 3rem 0;
+}
+
+.subscribe h4 {
+  font-size: 24px;
+  color: white;
+}
+
+.subscribe h2 {
+  font-size: 3rem;
+  max-width: 882px;
+  text-align: center;
+  color: white;
+}
+
+.subscribe form {
+  width: 609px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+}
+
+.subscribe form input {
+  border: none;
+  outline: none;
+  background-color: white;
+  font-size: 1.2rem;
+  color: #53535f;
+}

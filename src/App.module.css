@@ -8,3 +8,7 @@
   --light-cream: #f7f5ed;
   --darker-cream: #e0dfd7;
 }
+
+li {
+  list-style-type: none;
+}

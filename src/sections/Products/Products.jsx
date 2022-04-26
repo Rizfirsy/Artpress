@@ -86,7 +86,7 @@ const Products = () => {
 
   return (
     <section className={styles.products}>
-      <h1>Explore Products</h1>
+      <h1 className={styles["section-title"]}>Explore Products</h1>
       <main>
         {DUMMY_PRODUCTS.map((product) => (
           <Product details={product} />

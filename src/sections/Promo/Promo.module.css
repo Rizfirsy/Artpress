@@ -1,7 +1,15 @@
 .promo {
-  background-color: #3d40cc;
   padding: 2rem 0;
   overflow: hidden;
+}
+
+.light {
+  background-color: #f7f5ed;
+  color: #3d40cc;
+}
+.dark {
+  background-color: #3d40cc;
+  color: white;
 }
 
 .content {
@@ -11,7 +19,6 @@
   align-items: center;
   gap: 2rem;
 
-  color: white;
   font-weight: 300;
 }
 
