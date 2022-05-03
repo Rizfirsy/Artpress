@@ -2,6 +2,7 @@ import Artist from "./sections/Artist/Artist";
 import Categories from "./sections/Categories/Categories";
 import Footer from "./sections/Footer/Footer";
 import Header from "./sections/Header/Header";
+import Navbar from "./sections/Navbar/Navbar";
 import Products from "./sections/Products/Products";
 import CanvasPromo from "./sections/Promo/CanvasPromo";
 import Promo from "./sections/Promo/Promo";
@@ -11,6 +12,7 @@ import Subscribe from "./sections/Subscribe/Subscribe";
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Header />
       <Promo color="dark" />
       <Products />

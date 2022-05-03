@@ -22,14 +22,34 @@ const Header = () => {
   );
 
   return (
-    <section className={styles.header}>
+    <header className={styles.header}>
       <div className={styles.text}>
         <h4>Only shop original art in artpress</h4>
         <h1>Unique products featuring original artwork</h1>
         <Button text="Explore products" icon={rightArrow} />
       </div>
       <div className={styles.carousel}>
-        <div className={styles["top-row"]}>
+        <div className={`top-row ${styles["top-row"]}`}>
+          <img src={image_1} alt="product preview" />
+          <img src={image_2} alt="product preview" />
+          <img src={image_3} alt="product preview" />
+          <img src={image_4} alt="product preview" />
+          <img src={image_1} alt="product preview" />
+          <img src={image_2} alt="product preview" />
+          <img src={image_3} alt="product preview" />
+          <img src={image_4} alt="product preview" />
+          <img src={image_1} alt="product preview" />
+          <img src={image_2} alt="product preview" />
+          <img src={image_3} alt="product preview" />
+          <img src={image_4} alt="product preview" />
+          <img src={image_1} alt="product preview" />
+          <img src={image_2} alt="product preview" />
+          <img src={image_3} alt="product preview" />
+          <img src={image_4} alt="product preview" />
+          <img src={image_1} alt="product preview" />
+          <img src={image_2} alt="product preview" />
+          <img src={image_3} alt="product preview" />
+          <img src={image_4} alt="product preview" />
           <img src={image_1} alt="product preview" />
           <img src={image_2} alt="product preview" />
           <img src={image_3} alt="product preview" />
@@ -42,7 +62,7 @@ const Header = () => {
           <img src={image_1} alt="product preview" />
         </div>
       </div>
-    </section>
+    </header>
   );
 };
 

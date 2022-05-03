@@ -1,0 +1,35 @@
+.navbar-menu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4rem;
+
+  width: 50vw;
+  top: 0;
+  right: -100%;
+  bottom: 0;
+
+  background-color: #08081a;
+  color: white;
+  padding: 4rem;
+  z-index: -1;
+}
+
+.navbar-menu li {
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 720px) {
+  .navbar-menu {
+    width: 100vw;
+    gap: 2rem;
+  }
+
+  .navbar-menu li {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}

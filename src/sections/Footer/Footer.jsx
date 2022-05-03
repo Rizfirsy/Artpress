@@ -3,7 +3,7 @@ import Logo from "../../components/Logo";
 
 const Footer = () => {
   return (
-    <section className={styles.footer}>
+    <footer className={styles.footer}>
       <div className={styles.about}>
         <ul>
           <h4>About Us</h4>
@@ -47,7 +47,7 @@ const Footer = () => {
       <div className={styles.copyright}>
         <p>© 2022 ArtPress. Made with ♥ and ☕ by Rizfirsy</p>
       </div>
-    </section>
+    </footer>
   );
 };
 

@@ -15,6 +15,11 @@
   background-color: #f7f5ed;
 }
 
+.canvas-details h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
 .canvas-details p {
   max-width: 400px;
   text-align: center;

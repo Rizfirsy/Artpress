@@ -12,7 +12,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
 }
 
 .text {
@@ -22,6 +21,7 @@
 .carousel {
   overflow: hidden;
   background-color: #e0dfd7;
+  gap: 2rem;
 }
 
 .text h1 {
@@ -34,6 +34,9 @@
   color: #3d40cc;
   font-size: 1.5rem;
   text-transform: capitalize;
+
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .top-row,
@@ -41,4 +44,26 @@
   display: flex;
   justify-content: center;
   gap: 2rem;
+}
+
+@media screen and (max-width: 720px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 580px;
+  }
+
+  .carousel {
+    display: none;
+  }
+
+  .text h1 {
+    font-size: 2rem;
+    width: 300px;
+    line-height: 128%;
+    margin: 1rem 0;
+  }
+  .text h4 {
+    font-size: 1rem;
+  }
 }

@@ -1,0 +1,48 @@
+nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.cart {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.cart-amount {
+  color: #3d40cc;
+}
+
+.menu-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.6rem;
+
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+  .cart {
+    display: none;
+  }
+
+  nav {
+    padding: 1rem 1rem;
+  }
+}

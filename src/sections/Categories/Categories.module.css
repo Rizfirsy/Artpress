@@ -22,7 +22,7 @@ button {
   cursor: pointer;
 }
 
-h1 {
+.categories h1 {
   font-weight: 700;
   font-size: 4rem;
   margin-bottom: 75px;
