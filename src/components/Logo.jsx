@@ -2,15 +2,15 @@ import gsap from "gsap";
 import styles from "./Logo.module.css";
 
 const Logo = (props) => {
-  if (props.state === true) {
-    gsap.to(".logo-path", {
-      fill: "#ffffff",
-    });
-  } else {
-    gsap.to(".logo-path", {
-      fill: "#08081a",
-    });
-  }
+  // if (props.state === true) {
+  //   gsap.to(".logo-path", {
+  //     fill: "#ffffff",
+  //   });
+  // } else {
+  //   gsap.to(".logo-path", {
+  //     fill: "#08081a",
+  //   });
+  // }
 
   return (
     <svg

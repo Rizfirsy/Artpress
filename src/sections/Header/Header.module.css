@@ -46,6 +46,18 @@
   gap: 2rem;
 }
 
+@media screen and (max-width: 1440px) {
+  .text h1 {
+    font-size: 2.5rem;
+    width: 400px;
+    line-height: 128%;
+    margin: 1rem 0;
+  }
+  .text h4 {
+    font-size: 1rem;
+  }
+}
+
 @media screen and (max-width: 720px) {
   .header {
     display: grid;
@@ -57,13 +69,4 @@
     display: none;
   }
 
-  .text h1 {
-    font-size: 2rem;
-    width: 300px;
-    line-height: 128%;
-    margin: 1rem 0;
-  }
-  .text h4 {
-    font-size: 1rem;
-  }
 }
