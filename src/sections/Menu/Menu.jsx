@@ -1,4 +1,5 @@
 import gsap from "gsap";
+import { NavLink } from "react-router-dom";
 import styles from "./Menu.module.css";
 
 const Menu = (props) => {
@@ -16,10 +17,21 @@ const Menu = (props) => {
 
   return (
     <ul className={`navbar-menu-gsap ${styles["navbar-menu"]}`}>
-      <li>My Profile</li>
-      <li>Products</li>
-      <li>Blog</li>
-      <li>Contact</li>
+      <li>
+        <NavLink to="/">Home</NavLink>
+      </li>
+      <li>
+        <NavLink to="/my-profile">My Profile</NavLink>
+      </li>
+      <li>
+        <NavLink to="/products">Products</NavLink>
+      </li>
+      <li>
+        <NavLink to="/blog">Blog</NavLink>
+      </li>
+      <li>
+        <NavLink to="/support">Support</NavLink>
+      </li>
     </ul>
   );
 };

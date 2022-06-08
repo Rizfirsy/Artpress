@@ -1,28 +1,16 @@
-import Artist from "./sections/Artist/Artist";
-import Categories from "./sections/Categories/Categories";
-import Footer from "./sections/Footer/Footer";
-import Header from "./sections/Header/Header";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home/Home";
+import UserProfile from "./pages/Profile/UserProfile";
 import Navbar from "./sections/Navbar/Navbar";
-import Products from "./sections/Products/Products";
-import CanvasPromo from "./sections/Promo/CanvasPromo";
-import Promo from "./sections/Promo/Promo";
-import Reviews from "./sections/Reviews/Reviews";
-import Subscribe from "./sections/Subscribe/Subscribe";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Header />
-      <Promo color="dark" />
-      <Products />
-      <Categories />
-      <Artist />
-      <CanvasPromo />
-      <Reviews />
-      <Promo color="light" />
-      <Subscribe />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/my-profile" element={<UserProfile />} />
+      </Routes>
     </div>
   );
 }
