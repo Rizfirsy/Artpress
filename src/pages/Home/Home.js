@@ -1,7 +1,8 @@
 import { Fragment } from "react";
-import Header from "../../sections/Header/Header";
+import styles from "./Home.module.css";
+import Hero from "../../sections/Hero/Hero";
 import Promo from "../../sections/Promo/Promo";
-import Products from "../../sections/Products/Products.jsx";
+import Products from "../../sections/Products/Products";
 import Categories from "../../sections/Categories/Categories";
 import Artist from "../../sections/Artist/Artist";
 import CanvasPromo from "../../sections/Promo/CanvasPromo";
@@ -10,8 +11,8 @@ import Subscribe from "../../sections/Subscribe/Subscribe";
 
 const Home = () => {
   return (
-    <Fragment>
-      <Header />
+    <div className={styles.home}>
+      <Hero />
       <Promo color="dark" />
       <Products />
       <Categories />
@@ -20,7 +21,7 @@ const Home = () => {
       <Reviews />
       <Promo color="light" />
       <Subscribe />
-    </Fragment>
+    </div>
   );
 };
 

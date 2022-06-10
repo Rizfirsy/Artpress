@@ -1,14 +1,31 @@
-.button {
-  padding: 14px 48px;
-  background-color: #3d40cc;
-  color: white;
+button {
+  padding: 1rem 2rem;
   font-size: 1rem;
-  font-weight: 700;
   outline: none;
-  border: none;
   border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+
+.primary {
+  text-decoration: none;
+  background-color: #3d40cc;
+  border: #3d40cc solid 2px;
+}
+
+.secondary {
+  border: #3d40cc solid 2px;
+  background-color: transparent;
+}
+
+.primary .buttonLink {
+  text-decoration: none;
+  color: white;
+}
+
+.secondary .buttonLink {
+  text-decoration: none;
+  color: #3d40cc;
 }

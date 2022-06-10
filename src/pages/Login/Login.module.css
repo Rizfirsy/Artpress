@@ -1,0 +1,47 @@
+.login {
+  width: 100vw;
+  display: flex;
+}
+
+.formSection,
+.formImage {
+  width: 50%;
+  height: 864px;
+}
+
+.formSection {
+  background-color: white;
+  padding: 0 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formSection h1 {
+  font-size: 2rem;
+}
+
+.formSection > p {
+  color: #2f2f2f;
+  margin: 1rem 0;
+}
+
+.formSection form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem 0;
+  border: solid 2px #dedede;
+  padding: 3rem;
+  border-radius: 16px;
+}
+
+.formSection form input {
+  margin: 1rem 0 2rem 0;
+}
+
+.formImage {
+  overflow: hidden;
+}
