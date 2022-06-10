@@ -15,11 +15,22 @@
   color: white;
   padding: 4rem;
   z-index: -1;
+
+  list-style-type: none;
 }
 
 .navbar-menu li {
   font-size: 6rem;
   font-weight: 700;
+}
+
+.pageNavigation {
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  color: #3d40cc;
 }
 
 @media screen and (max-width: 1440px) {

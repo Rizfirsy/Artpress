@@ -167,7 +167,6 @@ const Navbar = () => {
             />
           </svg>
         </div>
-
         <Menu state={menuState} />
       </div>
     </nav>
