@@ -4,21 +4,15 @@
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  padding: 90px 0;
+  gap: 2rem;
 }
 
-.sectionTitle {
-  font-weight: 700;
-  font-size: 4rem;
-  margin-bottom: 75px;
-}
-
-main {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 32px;
-  row-gap: 90px;
-  margin-bottom: 90px;
+.productMainSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
 }
 
 @media screen and (max-width: 720px) {

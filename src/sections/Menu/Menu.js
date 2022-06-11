@@ -50,9 +50,9 @@ const Menu = (props) => {
           onClick={menuOnClickHandler}
           activeClassName={styles.active}
           className={styles.pageNavigation}
-          to="/products"
+          to="/store"
         >
-          Products
+          Store
         </NavLink>
       </li>
       <li>

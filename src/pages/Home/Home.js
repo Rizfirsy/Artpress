@@ -13,7 +13,6 @@ const Home = () => {
     <div className={styles.home}>
       <Hero />
       <Promo color="dark" />
-      <Products />
       <Categories />
       <Artist />
       <CanvasPromo />

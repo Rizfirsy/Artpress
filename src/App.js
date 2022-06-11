@@ -5,6 +5,7 @@ import UserProfile from "./pages/Profile/UserProfile";
 import Footer from "./sections/Footer/Footer";
 import Navbar from "./sections/Navbar/Navbar";
 import styles from "./App.module.css";
+import Store from "./pages/Store/Store";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Navbar />
       <main>
         <Switch>
-          <Route path="/home">
+          <Route path="/home" exact>
             <Home />
           </Route>
           <Route path="/my-profile">
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route path="/login">
             <Login />
+          </Route>
+          <Route path="/store">
+            <Store />
           </Route>
         </Switch>
       </main>

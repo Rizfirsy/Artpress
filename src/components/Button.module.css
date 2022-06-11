@@ -15,17 +15,21 @@ button {
   border: #3d40cc solid 2px;
 }
 
-.secondary {
-  border: #3d40cc solid 2px;
-  background-color: transparent;
-}
-
 .primary .buttonLink {
   text-decoration: none;
   color: white;
 }
 
+.secondary {
+  border: #3d40cc solid 2px;
+  background-color: transparent;
+}
+
 .secondary .buttonLink {
   text-decoration: none;
   color: #3d40cc;
+}
+
+.tertiary {
+  padding: 0;
 }

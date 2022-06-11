@@ -66,6 +66,24 @@ const DUMMY_PRODUCTS = [
     title: "Abstract art",
     price: 135,
   },
+  {
+    src: product_9,
+    alt: "abstract art",
+    title: "Abstract art",
+    price: 135,
+  },
+  {
+    src: product_9,
+    alt: "abstract art",
+    title: "Abstract art",
+    price: 135,
+  },
+  {
+    src: product_9,
+    alt: "abstract art",
+    title: "Abstract art",
+    price: 135,
+  },
 ];
 
 const Products = () => {
@@ -86,8 +104,7 @@ const Products = () => {
 
   return (
     <section className={styles.products}>
-      <h1 className={styles.sectionTitle}>Explore Products</h1>
-      <main>
+      <main className={styles.productMainSection}>
         {DUMMY_PRODUCTS.map((product) => (
           <Product details={product} />
         ))}
