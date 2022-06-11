@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import styles from "./Home.module.css";
 import Hero from "../../sections/Hero/Hero";
 import Promo from "../../sections/Promo/Promo";
