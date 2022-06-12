@@ -4,7 +4,7 @@ import Button from "../../components/Button";
 
 const Store = () => {
   return (
-    <div className={styles.store}>
+    <div className={styles.storePage}>
       <div className={styles.slider}>slider</div>
       <div className={styles.productsWrapper}>
         <div className={styles.filterSection}>

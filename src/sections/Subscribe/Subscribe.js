@@ -1,5 +1,5 @@
 import Button from "../../components/Button";
-import Input from "../../components/Input";
+import TextInput from "../../components/TextInput";
 import styles from "./Subscribe.module.css";
 
 const Subscribe = () => {
@@ -8,7 +8,7 @@ const Subscribe = () => {
       <h4>Receive deals every week, no spam</h4>
       <h2>Subscribe the newsletter and save 20% on your first order!</h2>
       <form>
-        <Input
+        <TextInput
           inputMinLength="4"
           inputType="text"
           inputPlaceholder="Write your email here"

@@ -1,6 +1,6 @@
-import styles from "./Input.module.css";
+import styles from "./TextInput.module.css";
 
-const Input = (props) => {
+const textInput = (props) => {
   const {
     inputDesign,
     inputType,
@@ -22,4 +22,4 @@ const Input = (props) => {
   );
 };
 
-export default Input;
+export default textInput;

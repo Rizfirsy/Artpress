@@ -1,22 +1,3 @@
-.storePage {
-  padding: 2rem;
-}
-
-.slider {
-  border: solid 1px #e9e9e9;
-  padding: 1rem;
-  border-radius: 1rem;
-  height: 350px;
-}
-
-.productsWrapper {
-  width: 100vw;
-  display: grid;
-  grid-template-areas: "filter main";
-  grid-template-columns: minmax(100px, 250px) auto;
-  margin: 2rem 0;
-}
-
 .filterSection {
   grid-area: filter;
   position: relative;

@@ -60,9 +60,9 @@ const Menu = (props) => {
           onClick={menuOnClickHandler}
           activeClassName={styles.active}
           className={styles.pageNavigation}
-          to="/blog"
+          to="/hire-artists"
         >
-          Blog
+          Hire Artists
         </NavLink>
       </li>
       <li>
@@ -72,7 +72,7 @@ const Menu = (props) => {
           className={styles.pageNavigation}
           to="/support"
         >
-          Support
+          Custom
         </NavLink>
       </li>
 

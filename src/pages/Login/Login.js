@@ -1,7 +1,7 @@
 import styles from "./Login.module.css";
 import Button from "../../components/Button";
 import image from "../../images/login-wallpaper.jpg";
-import Input from "../../components/Input";
+import TextInput from "../../components/TextInput";
 import { Link } from "react-router-dom";
 
 const Login = () => {
@@ -12,7 +12,7 @@ const Login = () => {
         <p>Enter your credential to acccess your account</p>
         <form>
           <label for="email">Email address</label>
-          <Input
+          <TextInput
             inputDesign="outlined"
             inputType="email"
             inputId="email"
@@ -21,7 +21,7 @@ const Login = () => {
             required
           />
           <label for="password">Password</label>
-          <Input
+          <TextInput
             inputDesign="outlined"
             inputType="password"
             inputId="password"
