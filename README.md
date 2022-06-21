@@ -1,3 +1,3 @@
-### ARTSELL
+### VECTORILLO
 
-Artsell is an ecommerce you can used to buy original artwork from an exclusive artist.
+Vectorillo is an ecommerce you can used to buy original vector illustration and artwork.
