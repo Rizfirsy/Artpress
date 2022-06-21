@@ -1,0 +1,52 @@
+@keyframes productMotion {
+  from {
+    transform: scale(100%);
+  }
+  to {
+    transform: scale(102%);
+  }
+}
+
+/*artist list */
+.artistItem {
+  width: 100%;
+  border: solid 1px #f4f4f4;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.artistItem:hover {
+  transform: scale(102%);
+  animation: productMotion 300ms;
+  border: solid 2px #3d40cc;
+}
+
+.artist {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.artistDetail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.artistDetail img {
+  margin-right: 1rem;
+}
+
+.artist img {
+  border-radius: 1rem;
+}
+
+.artistPortfolio {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.artistPortfolio img {
+  border-radius: 1rem;
+}

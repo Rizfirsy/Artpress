@@ -43,5 +43,10 @@
 }
 
 .formImage {
-  overflow: hidden;
+  display: grid;
+  place-content: center;
+}
+
+.formImage img {
+  width: 80%;
 }

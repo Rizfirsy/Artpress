@@ -1,7 +1,6 @@
 import styles from "./Home.module.css";
 import Hero from "../../sections/Hero/Hero";
 import Promo from "../../sections/Promo/Promo";
-import Products from "../../sections/Products/Products";
 import Categories from "../../sections/Categories/Categories";
 import Artist from "../../sections/Artist/Artist";
 import CanvasPromo from "../../sections/Promo/CanvasPromo";

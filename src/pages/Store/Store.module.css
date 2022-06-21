@@ -7,39 +7,27 @@
   padding: 1rem;
   border-radius: 1rem;
   height: 350px;
+  background-image: url(../../images/store-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .productsWrapper {
   width: 100vw;
   display: grid;
   grid-template-areas: "filter main";
-  grid-template-columns: minmax(100px, 250px) auto;
+  grid-template-columns: minmax(100px, 350px) auto;
   margin: 2rem 0;
 }
 
-.filterSection {
+.filterWrapper {
   grid-area: filter;
-  position: relative;
 }
 
-.filterContent {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 1rem;
-  gap: 1rem;
-}
-
-.filterContent div input {
-  margin-right: 1rem;
-}
-
-.asideSection .sectionName {
-  background-color: #e9e9e9;
-  padding: 1rem;
-}
-
-.filterSection aside {
+.filterWrapper .filter {
+  position: sticky;
+  top: 5%;
   background-color: white;
   border: solid 1px #e9e9e9;
   border-radius: 1rem;
