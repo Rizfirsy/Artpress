@@ -1,6 +1,11 @@
 import styles from "./TextInput.module.css";
+import useInputValidation from "../custom-hook/useInputValidation";
+import { useState } from "react";
 
-const textInput = (props) => {
+const TextInput = (props) => {
+  const [value, setValue] = useState("");
+
+  //destructuring props
   const {
     inputDesign,
     inputType,
@@ -10,16 +15,31 @@ const textInput = (props) => {
     inputMaxLength,
   } = props;
 
+  //validation result
+  const [isValid, message] = useInputValidation(inputType, value);
+
+  //styling the input based on validity
+  const validStyling = isValid ? "validInput" : "invalidInput";
+
+  //handling the input when it's value was changed
+  const onChangeHandler = (e) => {
+    setValue(e.target.value);
+  };
+
   return (
-    <input
-      className={`${styles[inputDesign]} ${styles.input}`}
-      placeholder={inputPlaceholder}
-      type={inputType}
-      id={inputId}
-      minLength={inputMinLength}
-      maxLength={inputMaxLength}
-    />
+    <div>
+      <input
+        onChange={onChangeHandler}
+        className={`${styles[validStyling]} ${styles[inputDesign]} ${styles.input}`}
+        placeholder={inputPlaceholder}
+        type={inputType}
+        id={inputId}
+        minLength={inputMinLength}
+        maxLength={inputMaxLength}
+      />
+      {!isValid && <p className={`${styles[validStyling]}`}>{message}</p>}
+    </div>
   );
 };
 
-export default textInput;
+export default TextInput;

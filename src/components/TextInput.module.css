@@ -18,3 +18,15 @@
 .outlined {
   border: solid 2px #dedede;
 }
+
+.validInput {
+  outline: solid 2px #18841b;
+  background-color: #fff;
+  color: #18841b;
+}
+
+.validInput:focus {
+  outline: solid 2px #18841b;
+  background-color: #90d39e;
+  color: #18841b;
+}
