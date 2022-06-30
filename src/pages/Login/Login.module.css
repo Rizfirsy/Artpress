@@ -38,10 +38,6 @@
   border-radius: 16px;
 }
 
-.formSection form input {
-  margin: 1rem 0 2rem 0;
-}
-
 .formImage {
   display: grid;
   place-content: center;
@@ -49,4 +45,13 @@
 
 .formImage img {
   width: 80%;
+}
+
+.inputContainer {
+  margin-bottom: 1rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
 }

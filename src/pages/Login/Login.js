@@ -11,25 +11,32 @@ const Login = () => {
         <h1>Login</h1>
         <p>Enter your credential to acccess your account</p>
         <form>
-          <label for="email">Email address</label>
-          <TextInput
-            inputDesign="outlined"
-            inputType="email"
-            inputId="email"
-            inputMinLength="4"
-            inputPlaceholder="name@email.com"
-            required
-          />
-          <label for="password">Password</label>
-          <TextInput
-            inputDesign="outlined"
-            inputType="password"
-            inputId="password"
-            inputMinLength="8"
-            inputPlaceholder="••••••••"
-            required
-          />
-
+          <div className={styles.inputContainer}>
+            <label className={styles.label} for="email">
+              Email address
+            </label>
+            <TextInput
+              inputDesign="outlined"
+              inputType="email"
+              inputId="email"
+              inputMinLength="4"
+              inputPlaceholder="name@email.com"
+              required
+            />
+          </div>
+          <div className={styles.inputContainer}>
+            <label className={styles.label} for="password">
+              Password
+            </label>
+            <TextInput
+              inputDesign="outlined"
+              inputType="password"
+              inputId="password"
+              inputMinLength="8"
+              inputPlaceholder="••••••••"
+              required
+            />
+          </div>
           <Button type="submit" design="primary" text="Login" />
         </form>
         <p>

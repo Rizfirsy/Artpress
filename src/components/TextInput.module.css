@@ -30,3 +30,7 @@
   background-color: #90d39e;
   color: #18841b;
 }
+
+.invalidInput {
+  color: #ed0d5b;
+}

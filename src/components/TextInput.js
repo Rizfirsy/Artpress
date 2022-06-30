@@ -37,7 +37,7 @@ const TextInput = (props) => {
         minLength={inputMinLength}
         maxLength={inputMaxLength}
       />
-      {!isValid && <p className={`${styles[validStyling]}`}>{message}</p>}
+      {/* {!isValid && <p>{message}</p>} */}
     </div>
   );
 };

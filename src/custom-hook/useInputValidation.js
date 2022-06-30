@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 
 const useInputValidation = (type, value) => {
-  const [isValid, setIsValid] = useState(false);
+  const [isValid, setIsValid] = useState(true);
   const [message, setMessage] = useState("");
 
   //this validation is a side effect
   useEffect(() => {
     //email validation
     if (type === "email") {
-      if (value.length >= 1) {
+      if (value.length >= 1 && value.includes("@")) {
         setIsValid(true);
         setMessage("Email kamu valid");
       } else {
