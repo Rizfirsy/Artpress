@@ -1,7 +1,7 @@
 import styles from "./Categories.module.css";
-import abstract1 from "../../images/Rectangle 37.png";
-import abstract2 from "../../images/Rectangle 38.png";
-import abstract3 from "../../images/Rectangle 39.png";
+import abstract1 from "../../../images/Rectangle 37.png";
+import abstract2 from "../../../images/Rectangle 38.png";
+import abstract3 from "../../../images/Rectangle 39.png";
 
 const Categories = () => {
   return (

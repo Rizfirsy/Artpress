@@ -1,9 +1,9 @@
-import Button from "../../components/Button";
+import Button from "../../../components/button/Button";
 import styles from "./Hero.module.css";
-import image_1 from "../../images/1.png";
-import image_2 from "../../images/2.png";
-import image_3 from "../../images/3.png";
-import image_4 from "../../images/4.png";
+import image_1 from "../../../images/1.png";
+import image_2 from "../../../images/2.png";
+import image_3 from "../../../images/3.png";
+import image_4 from "../../../images/4.png";
 
 const Hero = () => {
   const rightArrow = (

@@ -1,15 +1,15 @@
-import Product from "../../components/Product";
+import Product from "../../../components/product/Product";
 import styles from "./Products.module.css";
-import product_1 from "../../images/Rectangle 37.png";
-import product_2 from "../../images/Rectangle 38.png";
-import product_3 from "../../images/Rectangle 39.png";
-import product_4 from "../../images/Rectangle 40.png";
-import product_5 from "../../images/Rectangle 41.png";
-import product_6 from "../../images/Rectangle 42.png";
-import product_7 from "../../images/Rectangle 43.png";
-import product_8 from "../../images/Rectangle 44.png";
-import product_9 from "../../images/Rectangle 45.png";
-import Button from "../../components/Button";
+import product_1 from "../../../images/Rectangle 37.png";
+import product_2 from "../../../images/Rectangle 38.png";
+import product_3 from "../../../images/Rectangle 39.png";
+import product_4 from "../../../images/Rectangle 40.png";
+import product_5 from "../../../images/Rectangle 41.png";
+import product_6 from "../../../images/Rectangle 42.png";
+import product_7 from "../../../images/Rectangle 43.png";
+import product_8 from "../../../images/Rectangle 44.png";
+import product_9 from "../../../images/Rectangle 45.png";
+import Button from "../../../components/button/Button";
 
 const DUMMY_PRODUCTS = [
   {

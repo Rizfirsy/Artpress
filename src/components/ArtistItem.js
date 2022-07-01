@@ -1,5 +1,5 @@
 import styles from "./ArtistItem.module.css";
-import Button from "../components/Button";
+import Button from "./button/Button";
 import image_1 from "../images/1.png";
 import image_2 from "../images/2.png";
 import image_3 from "../images/3.png";

@@ -1,7 +1,7 @@
 import styles from "./HireArtists.module.css";
-import FilterSection from "../../components/FilterSection";
+import FilterSection from "../../components/filter/FilterSection";
 import ArtistItem from "../../components/ArtistItem";
-import Button from "../../components/Button";
+import Button from "../../components/button/Button";
 
 const HireArtists = () => {
   return (

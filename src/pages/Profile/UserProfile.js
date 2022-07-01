@@ -1,7 +1,6 @@
-import { Fragment } from "react";
-import { NavLink, Route, Routes } from "react-router-dom";
+import { NavLink, Route } from "react-router-dom";
 
-import Button from "../../components/Button";
+import Button from "../../components/button/Button";
 import styles from "./UserProfile.module.css";
 import ProfileImage from "../../images/profile.jpg";
 import PurchasedItem from "./PurchasedItem";

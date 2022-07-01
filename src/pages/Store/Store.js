@@ -1,7 +1,7 @@
 import styles from "./Store.module.css";
-import Products from "../../sections/Products/Products";
-import Button from "../../components/Button";
-import FilterSection from "../../components/FilterSection";
+import Products from "../../sections/home-section/Products/Products";
+import Button from "../../components/button/Button";
+import FilterSection from "../../components/filter/FilterSection";
 
 const Store = () => {
   return (

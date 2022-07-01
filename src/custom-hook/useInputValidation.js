@@ -4,7 +4,7 @@ const useInputValidation = (type, value) => {
   const [isValid, setIsValid] = useState(true);
   const [message, setMessage] = useState("");
 
-  //this validation is a side effect
+  //using useEffect to produce some state changes
   useEffect(() => {
     //email validation
     if (type === "email") {
@@ -27,6 +27,10 @@ const useInputValidation = (type, value) => {
         setMessage("password harus lebih dari 8 karakter");
       }
     }
+
+    return () => {
+      setIsValid(true);
+    };
   }, [type, value, isValid, message]);
 
   return [isValid, message];

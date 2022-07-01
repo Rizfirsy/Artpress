@@ -3,15 +3,15 @@ import Home from "./pages/Home/Home";
 import Login from "./pages/Login/Login";
 import UserProfile from "./pages/Profile/UserProfile";
 import Footer from "./sections/Footer/Footer";
-import Navbar from "./sections/Navbar/Navbar";
-import "./App.css";
+import MainNavigation from "./components/main-navigation/MainNavigation";
+import styles from "./App.module.css";
 import Store from "./pages/Store/Store";
 import HireArtists from "./pages/HireArtists/HireArtists";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <div className={styles.appLayout}>
+      <MainNavigation />
       <main>
         <Switch>
           <Route path="/" exact>

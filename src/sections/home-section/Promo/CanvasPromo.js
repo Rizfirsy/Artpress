@@ -1,6 +1,6 @@
-import Button from "../../components/Button";
+import Button from "../../../components/button/Button";
 import styles from "./CanvasPromo.module.css";
-import canvasImg from "../../images/canvas-frame.png";
+import canvasImg from "../../../images/canvas-frame.png";
 
 const CanvasPromo = (props) => {
   const rightArrow = (

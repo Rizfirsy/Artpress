@@ -1,5 +1,5 @@
 import styles from "./TextInput.module.css";
-import useInputValidation from "../custom-hook/useInputValidation";
+import useInputValidation from "../../custom-hook/useInputValidation";
 import { useState } from "react";
 
 const TextInput = (props) => {

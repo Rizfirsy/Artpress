@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
-import styles from "./Menu.module.css";
-import Button from "../../components/Button";
+import styles from "./NavMenu.module.css";
+import Button from "../../button/Button";
 
 const Menu = (props) => {
   return (

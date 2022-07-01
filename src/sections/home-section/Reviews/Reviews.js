@@ -1,5 +1,5 @@
 import styles from "./Reviews.module.css";
-import stars from "../../images/stars.png";
+import stars from "../../../images/stars.png";
 
 const Reviews = () => {
   const leftArrow = (

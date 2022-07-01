@@ -1,7 +1,7 @@
 import styles from "./Artist.module.css";
-import artist1 from "../../images/unsplash_IF9TK5Uy-KI.png";
-import artist2 from "../../images/unsplash_OhKElOkQ3RE.png";
-import artist3 from "../../images/unsplash_Zz5LQe-VSMY.png";
+import artist1 from "../../../images/unsplash_IF9TK5Uy-KI.png";
+import artist2 from "../../../images/unsplash_OhKElOkQ3RE.png";
+import artist3 from "../../../images/unsplash_Zz5LQe-VSMY.png";
 
 const Artist = () => {
   return (
