@@ -32,7 +32,15 @@ const Menu = (props) => {
           Hire Artists
         </NavLink>
       </li>
-      <Button design="primary" text="Login" path="/login" />
+      <li>
+        <NavLink
+          activeClassName={styles.active}
+          className={styles.pageNavigation}
+          to="/login"
+        >
+          Login
+        </NavLink>
+      </li>
     </ul>
   );
 };
